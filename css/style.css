@@ -148,6 +148,11 @@
     padding: 40px;
   }
 }
+@media (max-height: 320px) {
+  .screen__caption {
+    padding: 5px 20px;
+  }
+}
 .screen__side {
   width: auto;
 }
@@ -163,6 +168,13 @@
   letter-spacing: 0.5px;
   color: var(--text);
   margin-bottom: 20px;
+  text-transform: uppercase;
+}
+@media (max-height: 320px) {
+  .screen__title {
+    font-size: 13px;
+    margin-bottom: 10px;
+  }
 }
 .screen__text {
   font-size: 12px;
@@ -174,6 +186,12 @@
   .screen__text {
     font-size: 14px;
     margin-bottom: 21px;
+  }
+}
+@media (max-height: 320px) {
+  .screen__text {
+    font-size: 10px;
+    margin-bottom: 4px;
   }
 }
 
@@ -309,7 +327,12 @@
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 120px 40px;
+  padding: 40px;
+}
+@media (min-width: 768px) {
+  .mist {
+    padding: 120px 40px;
+  }
 }
 @media (min-width: 1200px) {
   .mist {
