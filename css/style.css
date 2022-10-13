@@ -305,7 +305,7 @@
 }
 
 .mist {
-  background-image: url(../img/jpg/mist.jpg);
+  background-image: url(../img/webp/mist.webp);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -313,7 +313,7 @@
 }
 @media (min-width: 1200px) {
   .mist {
-    background-image: url(../img/jpg/mist-2x.jpg);
+    background-image: url(../img/webp/mist-2x.webp);
   }
 }
 .mist__content {

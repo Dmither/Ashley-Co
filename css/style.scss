@@ -265,13 +265,13 @@
   --text: #B2B2B2;
 }
 .mist {
-  background-image: url(../img/jpg/mist.jpg);
+  background-image: url(../img/webp/mist.webp);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   padding: 120px 40px;
   @media (min-width: 1200px) {
-    background-image: url(../img/jpg/mist-2x.jpg);
+    background-image: url(../img/webp/mist-2x.webp);
   }
   &__content {
     flex-direction: column;
