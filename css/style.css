@@ -130,9 +130,9 @@
   width: 100%;
   height: 100%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
 }
 .screen__caption {
   display: block;
@@ -212,7 +212,7 @@
   padding: 40px;
   display: flex;
   flex-direction: column;
-  align-items: start;
+  align-items: flex-start;
 }
 @media (max-width: 767px) {
   .right__side {
